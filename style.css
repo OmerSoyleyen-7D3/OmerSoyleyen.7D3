@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+html{
+    font-size: 10px;
+}
+
+/*======NAVBAR START======*/
+.navbar{
+    width: 100%;
+    height: 70px;
+}
+
+.logo{
+    display: inline-block;
+    margin: 2rem 3rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.navbar-links{
+    display: inline-block;
+    margin-left: 70%;
+}
+
+.navbar-links ul li{
+    float: right;
+    list-style-type: none;
+}
+
+.navbar-links ul li a{
+    color: black;
+    font-size: 2rem;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 1rem;
+    transition: .5s;
+}
+
+.navbar-links ul li a:hover{
+    color: white;
+    background-color: black;
+}
+
+/*======NAVBAR FINISH======*/
+
+/*======SOCIAL MEDIA START======*/
+.social-media{
+    margin-top: 20rem;
+    position: fixed;
+}
+
+.fa-brands{
+    color: black;
+    font-size: 3rem;
+    margin: 2rem 0 0 5rem;
+    transition: .2s;
+}
+
+.fa-instagram:hover{
+    color: pink;
+}
+
+.fa-linkedin:hover{
+    color: blue;
+}
+
+.fa-twitter:hover{
+    color: aqua;
+}
+/*======SOCIAL MEDIA FINISH======*/
+
+/*======MAIN-PAGE-CONTAINER START======*/
+.main-page-container{
+    width: 80%;
+    height: 60rem;
+    margin: 2% 5% 5% 15%;
+}
+
+.main-page-container h1{
+    display: inline-block;
+    margin: 17rem 6rem 2rem 16rem;
+    font-size: 3rem;
+    font-weight: 500;
+    word-spacing: .2;
+    letter-spacing: .2;
+}
+
+.main-page-container h2{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: 16rem;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.main-page-container img{
+    width: 255px;
+    height: auto;
+    border-radius: 50%;
+    float: left;
+    margin: -21rem 0 0 70rem;
+}
+
+.main-page-container p{
+    font-size: 2rem;
+    width: 30%;
+    height: auto;
+    margin: 2rem 0 0 16rem;
+}
+/*======MAIN-PAGE-CONTAINER FINISH======*/
