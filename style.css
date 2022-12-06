@@ -9,6 +9,7 @@ html{
     font-size: 10px;
 }
 
+/*======MAIN-PAGE START======*/
 /*======NAVBAR START======*/
 .navbar{
     width: 100%;
@@ -46,10 +47,14 @@ html{
     transition: 1s;
 }
 
-.navbar-links ul li a:hover{
+.Home{
     text-decoration: underline 2px;
 }
 
+
+.navbar-links ul li a:hover{
+    text-decoration: underline 2px;
+}
 /*======NAVBAR FINISH======*/
 
 /*======SOCIAL MEDIA START======*/
@@ -117,19 +122,45 @@ html{
     margin: 2rem 0 0 16rem;
 }
 
-.main-page-container h3{
-    margin-top: 20rem;
-    font-size: 2rem;
-}
-
-.main-page-container a{
-    color: black;
-    text-decoration: none;
-    padding: 0rem 1rem;
-    transition: .5s;
-}
-
 .main-page-container a:hover{
     color: red;
 }
+
 /*======MAIN-PAGE-CONTAINER FINISH======*/
+/*======MAIN-PAGE FINISH======*/
+
+/*======MAIN-PAGE START======*/
+/*======SECOND-PAGE-CONTAINER START======*/
+
+.second-page-container h1{
+    margin: 10% 0% 0.45% 5%;
+    font-size: 3.25rem;
+}
+
+.second-page-container hr{
+    color: black;
+    margin: 0 5% 0% 5%;
+    border: none;
+    border-top: 2px solid black;
+    border-radius: 50%;
+}
+
+.second-page-container p{
+    width: 50%;
+     color: black;
+    font-size: 2rem;
+    font-weight: 500;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin: 15% 5% 65rem 42.5%;
+}
+
+.second-page-container img{
+    width: 400px;
+    height: auto;
+    float: left;
+    margin: 5% 0 0 10%;
+    border-radius: 15%;
+}
+/*======SECOND-PAGE-CONTAINER FINISH======*/
+/*======MAIN-PAGE FINISH======*/
